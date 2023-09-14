@@ -1,0 +1,491 @@
+/* 
+	Theme: LiveCallz Responsive HTML Template
+	Author: Sanjida Shammi
+	Live URL: https://sanjida123shammi.github.io/
+
+	Primary Color: #0f65b3
+	Secondary Color: #242424
+
+	Font Style: Poppins
+ */
+
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* Global CSS */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f9f9f9;
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+	padding: 0;
+    color: #242424;
+}
+ul{
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+h2 {
+	margin-bottom: 90px;
+	text-align: center;
+	font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+h2 span{
+    color: #0c63b2;
+}
+p{
+    margin: 25px 0;
+    font-size: 20px;
+    line-height: 36px;
+}
+h4{
+	font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.btn-one{
+	background: #0f65b3;
+	border: 2px solid #0f65b3;
+    border-radius: 15px;
+    padding: 23px 48px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+.btn-one:hover{
+	background: #fff;
+	color: #0f65b3;
+}
+
+
+/* Header Section */
+header{
+	position: relative;
+	padding: 2% 0 11%;
+	z-index: 1;
+}
+.navbar .container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+}
+.navbar-nav{
+	gap: 50px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	position: relative;
+	overflow: hidden;
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 19px;
+	text-transform: capitalize;
+	color: #fff;
+}
+.nav-link::before{
+	position: absolute;
+	content: "";
+	border-bottom: 2px solid #fff;
+	width: 50%;
+	bottom: 0;
+	left: -50%;
+	transition: all .4s ease-in-out;
+}
+.nav-link::after{
+	position: absolute;
+	content: "";
+	border-bottom: 2px solid #fff;
+	width: 50%;
+	bottom: 0;
+	right: -50%;
+	transition: all .4s ease-in-out;
+}
+.nav-link:hover::before{
+	left: 0;
+}
+.nav-link:hover::after{
+	right: 0;
+}
+.nav-link:hover, .nav-link:focus{
+	color: #f9f9f9;
+}
+.navbar-nav .call{
+	border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 15px 18px;
+    transition: all .3s ease-in-out;
+}
+.navbar-nav .call .nav-call{
+	font-size: 19px;
+	text-transform: capitalize;
+	font-weight: 500;
+	color: #fff;
+	transition: all .3s ease-in-out;
+}
+.navbar-nav .call:hover{
+	background: #fff;
+}
+.navbar-nav .call:hover .nav-call{
+	color: #0f65b3;
+}
+header .hero-bg img{
+	position: absolute;
+	width: 72%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+.height{
+	min-height: 575px;
+}
+.hero-section h1, footer h1{
+	font-size: 58px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.hero-section h1 span, footer h1 span{
+	display: block;
+    color: #0961b1;
+}
+.hero-section p, footer p{
+    margin: 25px 0 55px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.hero-section a{
+	background: #0c63b2;
+}
+.hero-section .hero-img{
+	position: absolute;
+	width: 47%;
+    right: 11%;
+    bottom: 0;
+}
+
+
+/* About Section */
+.about-section{
+	position: relative;
+	padding-bottom: 75px;
+	z-index: 0;
+}
+.about-row{
+	margin-bottom: 145px;
+	min-height: 570px;
+}
+.about-bg{
+	position: absolute;
+	width: 100%;
+	top: -6%;
+	left: 0;
+	z-index: -1;
+}
+.about-img{	
+	position: absolute;
+	left: 11%;
+    top: 0%;
+}
+.about-content{
+	text-align: right;
+}
+.about-section h2{
+	margin-bottom: 50px;
+	text-align: right;
+}
+.about-section h2 span{
+	display: block;
+}
+.about-section p {
+    font-weight: 600;
+}
+.about-box{
+	background: #fff;
+    border-radius: 25px;
+	box-shadow: 5px 5px 20px #f1f1f1;
+    margin-bottom: 36px;
+    padding: 50px 80px;
+    height: 470px;
+}
+.about-info{
+	display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.about{
+	margin-right: 40px;
+	width: 120px;
+    height: 110px;
+}
+.about-box p{
+	font-weight: 400;
+}
+.about-box p span{
+	font-weight: 700;
+}
+
+
+/* Speciality Section */
+.speciality-section{
+	position: relative;
+	padding-bottom: 70px;
+	z-index: 0;
+}
+.special-column{
+	margin-bottom: 70px;
+}
+.speciality{
+	background: #fff;
+	border-radius: 25px;
+	box-shadow: 0px 10px 10px #f1f1f1;
+	display: flex;
+	gap: 40px;
+	margin-bottom: 30px;
+	padding: 40px 30px 15px 52px;
+	transition: all .3s ease-in-out;
+}
+.speciality:hover{
+	background: #f3f3f3;
+	box-shadow: 0px 10px 10px #dedede;
+}
+.icon{
+	width: 40px;
+	height: 40px;
+}
+.icon .fa-solid{
+	font-size: 28px;
+	line-height: 40px;
+	color: #409830;
+}
+.icon .fa-circle-xmark{
+	color: #ff0000;
+}
+.spec-content h4{
+	margin-bottom: 10px;
+}
+.man-img{
+	position: absolute;
+	right: 8%;
+    bottom: 18%;
+}
+.special-bg{
+	position: absolute;
+	left: 0;
+    bottom: 7%;
+	z-index: -1;
+}
+
+
+/* Process Section */
+.process-section{
+	padding: 60px 0;
+}
+.process{
+	position: relative;
+	background: #f3f3f3;
+	border-radius: 165px 165px 25px 25px;
+	margin-top: 60px;
+	padding: 95px 35px 30px;
+	height: 530px;
+	text-align: center;
+}
+.num-box{
+	position: absolute;
+	background: #fff;
+    border-radius: 50%;
+    box-shadow: 5px 5px 40px #b6b6b6;
+    display: flex;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.number{
+	background: #0f65b3;
+    border-radius: 50%;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+.number p{
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 21px;
+	color: #fff;
+}
+
+
+/* Industry Section */
+.industry-section{
+	position: relative;
+	padding: 60px 0 100px;	
+	z-index: 0;
+}
+.serve-table{
+	background: #fff;
+	border-radius: 25px;
+	box-shadow: 0px 10px 10px #f1f1f1;
+	margin-bottom: 35%;
+	padding: 30px 18px;
+	height: 470px;
+}
+.serve-img{
+	width: 110px;
+    height: 90px;
+}
+.serve-table h4{
+	margin: 25px 0;
+	font-size: 28px;
+}
+.serve-table ul li{
+	list-style: none;
+	margin-bottom: 5px;
+	padding: 0;
+	font-size: 19px;
+	color: #242424;
+}
+.serve-table ul li span{
+	font-size: 19px;
+	color: #0f65b3;
+}
+.industry-bg{
+	position: absolute;
+	left: 0;
+	bottom: -10%;
+	z-index: -1;
+}
+
+
+/* FAQ Section */
+.faq-section{
+	position: relative;
+	padding: 70px 0 100px;
+	z-index: 0;
+}
+.faq{
+	background: #fff;
+	display: flex;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px #f3f3f3;
+    margin-bottom: 30px;
+    padding: 24px 40px;
+}
+.faq h5{
+	font-size: 24px;
+    font-weight: 700;
+}
+.faq span{
+	color: #0f65b3;
+}
+
+
+/* Footer Section */
+footer{
+	position: relative;
+	padding: 80px 0 0;
+	z-index: 0;
+}
+.footer-img{
+	position: absolute;
+	width: 46%;
+    right: 10%;
+    top: 0;
+}
+.desk-hide{
+	display: none;
+}
+.footer-bg{
+	position: absolute;
+	width: 62%;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.contact-row{
+	margin: 12% 0 5%;
+}
+.contact{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.contact-icon{
+	width: 45px;
+	height: 30px;
+}
+.contact-icon i{
+	font-size: 23px;
+	color: #0f65b3;
+}
+.contact p{
+	margin: 0;
+	font-weight: 400;
+	text-transform: none;
+}
+.mobile-logo{
+	display: none;
+}
+.support{
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+.support p{
+	margin: 0;
+	font-weight: 300;
+	color: #fff;
+}
+.support p span{
+	font-weight: 600;
+	color: #fff;
+}
+.support .call{
+	border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 16px 24px;
+    transition: all .3s ease-in-out;
+}
+.support .call:hover{
+	background: #fff;
+}
+.support .call a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	transition: all .3s ease-in-out;
+}
+.support .call:hover a{
+	color: #4ba63c;
+}
+.policy{
+	margin-top: 17px;
+}
+.policy p{
+	font-size: 18px;
+	font-weight: 400;
+}
+.terms{
+	text-align: right;
+}
+.terms p{
+	color: #fff;
+	font-weight: 300;
+}
+.terms p a{
+	color: #fff;
+	transition: all .3s ease-in-out;
+}
+.terms p a:hover{
+	color: #242424;
+}

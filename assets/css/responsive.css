@@ -1,0 +1,285 @@
+@media (min-width: 2300px){
+	.hero-section .hero-img { width: 37%;    right: 18%;    bottom: 2%; }
+	p, .navbar-expand-lg .navbar-nav .nav-link, .navbar-nav .call .nav-call, .btn-one, .serve-table ul li, .serve-table ul li span, .contact p, .support .call a, .policy p { font-size: 23px; }
+	.about-img { left: 20%; }
+	.man-img { right: 20%;    bottom: 15%; }
+	.serve-table { height: 500px; }
+	.footer-img { right: 21%;    top: -5%;    width: 32%; }
+	.footer-bg { width: 58%; }
+}
+
+@media (min-width: 2700px){
+	header .hero-bg img { width: 69%; }
+	.hero-section .hero-img { width: 32%;    right: 23%;    bottom: 8%; }
+	.about-img { left: 26%; }
+	.man-img { right: 25%; }
+	.footer-img { right: 24%;    width: 30%; }
+}
+
+@media (min-width: 1400px) and (max-width: 1700px){
+	h2 { font-size: 46px; }
+	header .hero-bg img { width: 78%; }
+	p, .navbar-expand-lg .navbar-nav .nav-link, .navbar-nav .call .nav-call, .serve-table ul li, .serve-table ul li span, .contact p, .support .call a, .policy p { font-size: 18px; }
+	.hero-section h1, footer h1 { font-size: 55px; }
+	.hero-section p, footer p { font-size: 19px; }
+	.btn-one { padding: 18px 45px;    font-size: 20px; }
+	.hero-section .hero-img { width: 56%;    right: 11%;    bottom: 6%; }
+	.about-img { left: 6%; }
+	.about-box { padding: 50px 70px;    height: 420px; }
+	.man-img { right: 0%;    bottom: 12%; }
+	.footer-img { right: 7%;    width: 55%; }
+	.faq-section { padding: 20px 0 60px; }
+}
+
+@media (min-width: 1500px) and (max-width: 1700px){
+	.hero-section .hero-img { width: 48%;    right: 11%;    bottom: 6%; }
+	.man-img { right: 4%;}
+	.footer-img { right: 7%;    width: 50%; }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+	h2 { font-size: 42px; }
+	h4 { font-size: 28px; }
+	p, .navbar-expand-lg .navbar-nav .nav-link, .navbar-nav .call .nav-call, .serve-table ul li, .serve-table ul li span, .contact p, .support .call a { font-size: 18px; }
+	header .hero-bg img { width: 80%; }
+	.navbar-nav .call { padding: 12px 16px;		font-size: 17px; }
+	.height { min-height: 510px; }
+	.hero-section h1, footer h1 { font-size: 48px; }
+	.hero-section p, footer p { margin-bottom: 50px;	font-size: 19px; }
+	.hero-section .hero-img { width: 57%;    right: 5%; }
+	.btn-one { padding: 18px 45px;    font-size: 19px; }
+	.about-img { width: 45%;    left: 7%; }
+	.about-row { margin-bottom: 140px;    min-height: 520px; }
+	.about-bg { top: -5%; }
+	.about-section h2 { margin-bottom: 35px; }
+	.about-box { padding: 50px 50px;    height: 435px; }
+	.speciality { gap: 30px;    padding-left: 40px;}
+	.man-img { width: 48%;	right: 0%;    bottom: 16%; }
+	.process { border-radius: 135px 135px 25px 25px;    padding: 95px 40px 30px;}
+	.serve-table h4 { font-size: 26px; }
+	.faq-section { padding: 30px 0 65px; }
+	.faq h5 { font-size: 22px; }
+	.footer-img { width: 52%;    right: 5%; }
+	.contact-row { margin: 10% 0 5%; }
+	.contact { margin-bottom: 15px; }
+	.contact-icon i { font-size: 22px;    line-height: 30px; }
+	.support .call { padding: 15px 25px; }
+	.support p { margin-right: 25px !important;		font-size: 17px; }
+	.policy p { font-size: 17px; }
+	.footer-bg { width: 68%; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	h2 { margin-bottom: 70px;	font-size: 38px; }
+	p, .contact p, .support .call a { font-size: 17px; }
+	h4 { font-size: 26px; }
+	header .hero-bg img { width: 82%; }
+	.navbar-brand img { width: 85%; }
+	.navbar-nav { gap: 30px; }
+	.navbar-expand-lg .navbar-nav .nav-link, .navbar-nav .call .nav-call { font-size: 17px;		font-weight: 500; }
+	.navbar-nav .call { padding: 12px 15px; }
+	.height { min-height: 50vh; }
+	.hero-section h1, footer h1 { font-size: 42px; }
+	.hero-section p, footer p { margin-bottom: 40px;	font-size: 18px; }
+	.hero-section .hero-img, .footer-img { right: 3%;	width: 55%; }
+	.hero-section .hero-img { bottom: 5%; }
+	.btn-one { padding: 15px 34px;    font-size: 20px; }
+	.about-img { left: 3%;		width: 50%; }
+	.about-row { margin-bottom: 80px;    min-height: 460px;    align-items: center !important; }
+	.about-bg { top: -4%; }
+	.about-section h2 { margin-bottom: 25px; }
+	.about-box { padding: 35px;    height: 420px; }
+	.about { margin-right: 0px;    width: 150px; }
+	.about-one { width: 140px; }
+	.about-two { width: 160px; }
+	.man-img { right: 0%;    bottom: 12%;    width: 48%; }
+	.speciality { gap: 25px;	padding: 30px 30px 5px 30px; }
+	.process { border-radius: 120px 120px 25px 25px;    padding: 95px 25px 30px;    height: 510px; }
+	.serve-table { height: 425px; }
+	.serve-table h4 { font-size: 23px; }
+	.serve-table ul li, .serve-table ul li span, .policy p { font-size: 16px; }
+	.faq-section { padding-bottom: 50px; }
+	.faq h5 { font-size: 21px; }
+	.contact-icon i { font-size: 20px;    line-height: 30px; }
+	.footer-bg { width: 77%; }
+	.desktop-logo {width: 57%;}
+	.support .call { padding: 12px 20px; }
+	.support p { margin-right: 25px !important;		font-size: 17px; }	
+}
+
+@media (min-width: 1065px) and (max-width: 1199px){
+	.hero-section .hero-img { width: 50%;	right: 5%; }
+	.about-img { left: 8%;    width: 42%; }
+}
+
+@media (max-width: 1440px){
+	.num-box { width: 110px;    height: 110px; }
+	.number { width: 60px;    height: 60px; }
+	.number p { font-size: 25px;	line-height: 12px; }
+}
+
+/* Responsive for max-width: 991px */
+@media (max-width: 991px){
+	h2 { margin-bottom: 70px;	font-size: 38px;    line-height: 55px; }
+	p { font-size: 18px;    line-height: 32px; }
+	h4 { font-size: 24px; }
+
+	.navbar-brand { width: 25%; }
+	.navbar-toggler { border: none;	color: #f9f9f9;  font-size: 30px; }
+	.navbar-toggler:hover, .navbar-toggler:focus { box-shadow: none;    outline: none; }
+	.btn-xmark { background: transparent;  	border: none;	font-size: 30px;   color: #fff; }
+	.offcanvas { background: #00498b; }
+	.offcanvas-header { padding-top: 20px; }
+	.menu-logo{ width: 80%; }
+	.navbar-nav { gap: 25px; }
+	.navbar-expand-lg .navbar-nav .nav-link, .contact p, .serve-table ul li, .serve-table ul li span, .support .call a { font-size: 18px; }
+
+	.height { flex-direction: column-reverse;	text-align: center; }
+	.hero-section .hero-img{ position: relative;   display: block;	margin: 0 auto;  width: 80%;  right: 0; }
+	.hero-section h1, footer h1 { font-size: 40px;	line-height: 55px; }
+	.hero-section p, footer p { margin-bottom: 45px;	font-size: 18px; }
+	.btn-one { padding: 18px 35px;    font-size: 19px; }
+
+	.about-section, .speciality-section { padding-bottom: 60px; }
+	.about-row { margin-bottom: 65px; }
+	.about-bg { top: 0%; }
+	.about-img { position: relative;  display: block;  margin: auto;   width: 70%; 	left: 0; }
+	.about-content, .terms { text-align: center; }
+	.about-section h2 { margin-bottom: 20px;    text-align: center; }
+	.about-box { padding: 30px 15px; }
+	.about-info { display: inherit; }
+	.about { height: 120px; }
+
+	.man-img { display: none; }
+	.speciality { padding: 35px 35px 15px 35px;		gap: 30px; }
+	.icon .fa-solid { font-size: 23px;    line-height: 30px; }
+	.spec-content h4 { display: inline-block;    margin-right: 2px;	    margin-bottom: 0px; }
+	.special-column { margin-bottom: 40px; }
+	.special-bg { bottom: 0%; }
+	.process-section { padding: 50px 0 0px; }
+	.process { margin-bottom: 50px;		height: 480px; }
+	
+	.industry-section { padding: 30px 0; }
+	.serve-table { margin-bottom: 30px;    padding: 35px 40px;    height: 455px; }
+	.serve-table h4 { margin: 30px 0 20px;    font-size: 24px; }	
+	.industry-btn { margin-top: 55px; }
+	.industry-bg { bottom: -3%; }
+
+	.faq-section { padding-bottom: 0px;}
+	.faq { padding: 20px 40px; }
+	.faq h5 { font-size: 19px; }
+
+	footer { padding-bottom: 30px; }
+	.footer-head { flex-direction: column-reverse;	text-align: center; }
+	.footer-img { position: relative;    display: block;    right: 0;    margin: auto;    width: 77%; }
+	.contact-icon i { font-size: 20px;    line-height: 30px; }
+	.footer-bg { width: 100%;}
+	.desktop-logo { display: none; }
+	.mobile-logo { display: block;   margin: 0 auto 25px;	width: 25%; }
+	.support { display: block;	text-align: center; }
+	.support p { margin-right: 0px !important;	margin-bottom: 15px;	}	
+	.support .call { display: inline-block;		padding: 10px 15px; }
+	.policy { flex-direction: column-reverse;	margin-top: 40px;		text-align: center; }
+	.policy p { margin: 0 0 5px;	font-size: 15px;	color: #fff; }	
+}
+
+/* Responsive for max-width: 767px */
+@media (max-width: 767px){
+	h2 { margin-bottom: 55px;	font-size: 32px;    line-height: 45px; }
+	p { margin: 18px 0; }
+	p, .navbar-expand-lg .navbar-nav .nav-link, .contact p, .serve-table ul li, .serve-table ul li span, .support p, .support .call a { font-size: 16px; }
+	.navbar-nav .call .nav-call, .btn-one, .faq h5 { font-size: 18px; }
+
+	header { padding-bottom: 55px; }
+	.navbar-brand { width: 30%; }
+	.navbar-toggler { border: none;	color: #f9f9f9;  font-size: 25px; }
+	.hero-section h1, footer h1 { font-size: 36px;    line-height: 50px; }
+
+	.about-section { margin-top: 40px; }
+	.about-row { margin-bottom: 45px; }
+	.about-box { padding: 30px;   height: auto; }
+	.about-info { display: flex; }
+	.about { margin-right: 20px;    height: 90px; }
+	.about img { width: 80%; }
+
+	.process { margin-bottom: 30px;		padding-top: 110px;		height: auto; }
+	.number p { line-height: 25px; }
+	.serve-table { padding: 30px 22px;    height: 425px; }
+	.mbl-hide{	display: none; }
+	.desk-hide{	display: block; }
+}
+
+@media (min-width: 670px) and (max-width: 767px){
+	.mbl-hide{	display: block; }
+	.desk-hide{	display: none; }
+}
+
+@media (max-width: 575px){
+	h2 { font-size: 28px;	line-height: 40px; }
+	.hero-section h1, footer h1 { font-size: 32px;    line-height: 45px; }
+	.about-box { padding: 38px; }
+	.about { margin-right: 0px;		height: 80px; }
+	.about img { width: 70%; }
+	.faq { padding: 20px 30px; }
+}
+
+@media (max-width: 495px){
+	.desktop-logo { display: block;   margin: 0 0 25px;		width: 35%; }
+	.mobile-logo { display: none; } }
+
+@media (max-width: 485px){
+	.navbar-brand { width: 35%; }
+	.serve-table { padding: 25px 8px; }
+	.about-box { padding: 30px; }
+	.faq h5 { font-size: 17px;	line-height: 26px; }
+	.contact-row { margin: 75px 0 30px; }
+}
+
+@media (max-width: 474px){
+	header { padding-bottom: 20px; }
+	.serve-col { width: 100%; }
+	.serve-table { padding: 25px 40px;    margin: 0px 60px 30px;	height: auto; }
+	.support p { font-weight: 400;	color: #242424; }
+	.support p span { color: #242424; }
+}
+
+@media (max-width: 425px){ 
+	.about-img { width: 85%; }
+	.serve-table { padding: 25px;    margin: 0px 40px 30px; } 
+	.process { padding-left: 10px;	padding-right: 10px; }
+	footer { padding-top: 50px; }
+	.desktop-logo { width: 40%; }
+}
+
+@media (max-width: 400px){
+	.navbar-nav .call .nav-call { font-size: 16px; }
+	.hero-section .hero-img { width: 98%; }
+	.footer-img { width: 100%; }
+	.about-box { padding: 15px; }
+	.speciality { padding: 35px 20px 15px 20px;    gap: 20px; }
+	.process { border-radius: 130px 130px 25px 25px;}
+	.contact { align-items: start;    margin-bottom: 10px; }
+}
+
+@media (max-width: 375px){	
+	.navbar-brand { width: 40%; } 
+	.navbar-toggler { font-size: 22px; }
+	.menu-logo { width: 75%; }
+	.btn-xmark { font-size: 28px; }
+	.btn-one{ font-size: 17px;	  padding: 16px 26px; }
+	.contact-icon { width: 39px; }
+	.desktop-logo { width: 45%; }
+}
+
+@media (max-width: 351px){
+	.hero-section h1, footer h1 { font-size: 30px;   line-height: 40px; }
+	.hero-section p, footer p { font-size: 17px; }	
+	.about-info { display: inherit; }
+	.about { height: 96px; }	
+	.speciality { padding: 25px 8px 5px 8px;    gap: 15px; }
+	.serve-table { margin: 0px 20px 30px; }
+	.desktop-logo { margin: 0 auto 20px; }
+	.support .call { border: 1px solid #242424; }
+	.support .call:hover { border: 1px solid #fff; }
+	.support .call a { color: #242424; }
+}
